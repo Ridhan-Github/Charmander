@@ -50,7 +50,8 @@ async def start(c, m, cb=False):
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
-        await m.message.edit(
+        await m.reply.photo(
+            photo="https://telegra.ph/file/8e420f1d90816c8acd1f9.jpg",
             text=TEXT.START_TEXT.format(user_mention=m.from_user.mention, bot_owner=owner.mention(style="md")), 
             disable_web_page_preview=True,
             reply_markup=reply_markup
