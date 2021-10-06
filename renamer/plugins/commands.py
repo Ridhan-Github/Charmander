@@ -14,10 +14,10 @@ from pyrogram.emoji import *
 @Compass_Botz.on_message(filters.command("help") & filters.private & filters.incoming)
 async def help(c, m, cb=False):
     button = [[
-        InlineKeyboardButton(f'⚡ Home', callback_data='back'),
-        InlineKeyboardButton(f'{MONEY_BAG} Donate', callback_data='donate')
+        InlineKeyboardButton(f'𝙃𝙤𝙢𝙚🏡', callback_data='back'),
+        InlineKeyboardButton(f'𝔇𝔬𝔫𝔞𝔱𝔢😊', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'✖️ Close', callback_data='close')
+        InlineKeyboardButton(f'𝘊𝘭𝘰𝘴𝘦🖤', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -42,11 +42,11 @@ async def start(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
     owner_username = owner.username if owner.username else 'Compass_Botz'
     button = [[
-        InlineKeyboardButton(f'👨‍💻 Developer', url=f'https://t.me/{owner_username}'),
-        InlineKeyboardButton(f'❗ About', callback_data='about')
+        InlineKeyboardButton(f'👑⊕ωηεr😎', url=f'https://t.me/{owner_username}'),
+        InlineKeyboardButton(f'𝘈𝘣𝘰𝘶𝘵🤓', callback_data='about')
         ],[
-        InlineKeyboardButton(f'💬 Help', callback_data="help"),
-        InlineKeyboardButton(f'✖️ Close', callback_data="close")
+        InlineKeyboardButton(f'ᕼᗴᒪᑭ🥺', callback_data="help"),
+        InlineKeyboardButton(f'𝘊𝘭𝘰𝘴𝘦🖤', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -56,7 +56,7 @@ async def start(c, m, cb=False):
             reply_markup=reply_markup
         )
     else:
-        await m.reply_sticker(sticker="CAACAgUAAxkBAAECXWJgtiefn2bNuYvjcasry5Lq-mzdswACRQUAAo8k-yWDStn_vuRiJx8E", quote=True)
+        await m.reply_sticker(sticker="CAACAgIAAxkBAAEDBjRhXRp30T82S_PobYoQi2p0Mgf7igACQQIAApb6EgUKwyduObjWpCEE", quote=True)
         await m.reply_text(
             text=TEXT.START_TEXT.format(user_mention=m.from_user.mention, bot_owner=owner.mention(style="md")), 
             disable_web_page_preview=True,
@@ -74,10 +74,10 @@ async def about(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
 
     button = [[
-        InlineKeyboardButton(f'⚡ Home', callback_data='back'),
-        InlineKeyboardButton(f'💰 Donate', callback_data='donate')
+        InlineKeyboardButton(f'𝙃𝙤𝙢𝙚🏡', callback_data='back'),
+        InlineKeyboardButton(f'𝔇𝔬𝔫𝔞𝔱𝔢😊', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'✖️ Close', callback_data="close")
+        InlineKeyboardButton(f'𝘊𝘭𝘰𝘴𝘦🖤', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -153,7 +153,7 @@ async def password(c, m):
                 await m.reply_text(text=LOCKED_WITH_KEY, quote=True)
                 await m.reply_text(f'Logged Sucessfully to the bot.\nEnjoy the bot now {FACE_SAVORING_FOOD}.', quote=True)
             else:
-                await m.reply_sticker(sticker="CAACAgUAAxkBAAECZ4xgwMFgDJ2Y2VjT-mP8tarDHPllGwACXgUAAo8k-yVXChZTI-azSR8E", quote=True)
+                await m.reply_sticker(sticker="CAACAgIAAxkBAAEDBkdhXRtugkWn2kLnaswYPhWCZbZCUAACFwIAApb6EgUx0VDnDbeuZiEE", quote=True)
                 return await m.reply_text(f'Incorrect password', quote=True)
     else:
         await m.reply_text(f'**This bot was publicly available to all {SMILING_FACE_WITH_HEARTS}.**\nIf you are the owner of the bot to make bot private add bot password in Config Vars {LOCKED_WITH_KEY}.', quote=True)
