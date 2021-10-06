@@ -41,12 +41,13 @@ TELEGRAM RENAMER BOT WITH PERMANENT THUMBNAIL SUPPORT!🚀.
 """
 
 
-    DONATE_USER = """**Hey**
+    DONATE_USER = """**Hey {user_mention} **
 
 🌀 DONATE ME IF YOU LIKE THIS BOT!
+
 💸 10ʀꜱ
  
 **ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ**
 ɢᴏᴏɢʟᴇᴘᴀʏ / ᴘᴀʏᴛᴍ / ᴘʜᴏɴᴘᴀʏ 
  
-**CONTACT OWNER:** @VAMPIRE_KING_NO_1"""
+**CONTACT OWNER:** [౮คɱƿɿՐ૯ қɿՈ૭ 👑 #𝚂𝙴𝙳](https://t.me/VAMPIRE_KING_NO_1)"""
