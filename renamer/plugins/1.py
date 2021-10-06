@@ -17,9 +17,9 @@ async def force_sub(c, m):
                 return await m.reply_text('👻 You are kicked from my Channel, Unable to use me.',  quote=True)
 
         except UserNotParticipant:
-            button = [[InlineKeyboardButton('Join Updates Channel', url=f'https://t.me/{Config.FORCE_SUB}')]]
+            button = [[InlineKeyboardButton('🖤 join Updates channel', url=f'https://t.me/{Config.FORCE_SUB}')]]
             markup = InlineKeyboardMarkup(button)
-            return await m.reply_text(text="Join Our Update Channel to Use Me.", parse_mode='markdown', reply_markup=markup, quote=True)
+            return await m.reply_text(text="Hey Bruh join my updates channel to use me 😎", parse_mode='markdown', reply_markup=markup, quote=True)
 
         except ChatAdminRequired:
             logger.warning(f"🕴️ Make me admin in @{Config.FORCE_SUB}")
