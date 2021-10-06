@@ -52,7 +52,7 @@ async def start(c, m, cb=False):
     if cb:
         await m.send_photo(photo="https://telegra.ph/file/8e420f1d90816c8acd1f9.jpg", quote=True)
         await m.reply_text(
-            text=TEXT.START_TEXT.format(user_mention=m.from_user.mention, bot_owner=owner.mention(style="md")), 
+            text=TEXT.START_TEXT.format,
             reply_markup=reply_markup
         )
     else:
