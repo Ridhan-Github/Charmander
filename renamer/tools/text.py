@@ -41,7 +41,7 @@ TELEGRAM RENAMER BOT WITH PERMANENT THUMBNAIL SUPPORT!🚀.
 """
 
 
-    DONATE_USER = """**Hey {user_mention} **
+    DONATE_USER = """**Hey Bruh/Sis **
 
 🌀 DONATE ME IF YOU LIKE THIS BOT!
 
