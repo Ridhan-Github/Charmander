@@ -104,23 +104,5 @@ login - (when password is given) to login to bot
 [Source](https://github.com/Ns-Bots/TG-RENAMER-BOT)
 [Dan](https://telegram.dog/haskell) for his [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-<html>
-<head>
 
-<style>
-img {
-  opacity: 2.1;
-}
-
-img:hover {
-  opacity: 2.1;
-}
-</style>
-</head>
-<body>
-
-<img src="https://telegra.ph/file/e184663f58542161a1236.jpg" alt="tEST BG" width="549" height="418">
-
-
-</body>
-</html>
+<img src="https://telegra.ph/file/8e103a319b2412f0d89de.jpg" alt="tEST BG" width="549" height="418">
