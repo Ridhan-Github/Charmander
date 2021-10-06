@@ -8,7 +8,7 @@
   <a href="https://github.com/Judson-web/New-TG-Rename-Bot/" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square&logo=serverless&logoColor=FFC75F&color=FFC75F" /> </a>
 </p>
 
-<p align="center"><a href="https://github.com/Judson-web/New-TG-Rename-Bot"><img src="https://telegra.ph/file/2c5352485bc9817925e33.jpg"></a></p>
+<p align="center"><a href="https://github.com/Judson-web/New-TG-Rename-Bot"><img src="https://telegra.ph/file/4f1bbe7a3518eecb657cd.jpg"></a></p>
 
 <p align="center">
     <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=FFC75F&logo=codacy&logoColor=FFC75F&style=for-the-badge" alt="Codacy" /></a>
