@@ -18,8 +18,8 @@ class TEXT:
 ** ➜ Language:** [Python 3](https://www.python.org/)
 ** ➜ FrameWork:** [Pyrogram](https://github.com/pyrogram/pyrogram)
 ** ➜ Developer:** {bot_owner}
-** ➜ Channel:** [Compass Botz](https://t.me/Compass_Botz)
-** ➜ Source Code:** [Press Me](https://github.com/dakshkohli23/New-TG-Rename-Bot)
+** ➜ Channel:** [🎥Story Time channel Files 🎥](https://t.me/storytimeoG)
+** ➜ Source Code:** [Press Me](https://t.me/NOKIERUNNOIPPKITTUM)
 """
 
     HELP_USER = """**🚨 ᴏʜ! ʏᴏᴜ ɴᴇᴇᴅ ʜᴇʟᴘ!**
@@ -32,26 +32,21 @@ class TEXT:
 ꜰᴏʀ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴄʜᴇᴄᴋ ᴀʙᴏᴜᴛ ꜱᴇᴄᴛɪᴏɴ!
 """
 
-    START_TEXT = """ʜᴇʏ! {user_mention} ꜱʜɪɴᴏʙɪ 🥷,
-ɪ'ᴍ ɴᴀʀᴜᴛᴏ ᴜᴢᴜᴍᴀᴋɪ
-ᴛᴇʟᴇɢʀᴀᴍ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴜᴘᴘᴏʀᴛ ɪꜱ ᴍʏ ɴɪɴᴊᴀ ᴡᴀʏ!⚡.
+    START_TEXT = """Hey! {user_mention}
+I'AM CHARMANDER 
+TELEGRAM RENAMER BOT WITH PERMANENT THUMBNAIL SUPPORT!🚀.
 
-<b>ᴅᴏ /help ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ...</b>
-**ʜᴏᴋᴀɢᴇ:** {bot_owner}
+<b>DO /help FOR MOR DETAILS...</b>
+**owner:** {bot_owner}
 """
 
 
-    DONATE_USER = """**ʏᴏᴜ'ʀᴇ ᴀᴛ ɪᴄʜɪʀᴀᴋᴜ ʀᴀᴍᴇɴ
-ᴅᴏɴᴀᴛᴇ ꜱᴏᴍᴇ ʀᴀᴍᴇɴ ᴛᴏ ʜᴏᴋᴀɢᴇ**
+    DONATE_USER = """**Hey**
 
-🌀 ᴅᴏɴᴀᴛᴇ ᴍᴇ ᴛᴏ ᴋᴇᴇᴘ ᴋᴏɴᴏʜᴀɢᴀᴋᴜʀᴇ ᴠɪʟʟᴀɢᴇ ᴀʟɪᴠᴇ
-🍜 10ʀꜱ ʀᴀᴍᴇɴ
-🍜 20ʀꜱ ʀᴀᴍᴇɴ
-🍜 30ʀꜱ ʀᴀᴍᴇɴ
-🍜 50ʀꜱ ʀᴀᴍᴇɴ
-🍜 100ʀꜱ ʀᴀᴍᴇɴ
+🌀 DONATE ME IF YOU LIKE THIS BOT!
+💸 10ʀꜱ
  
 **ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ**
-ɢᴏᴏɢʟᴇᴘᴀʏ / ᴘᴀʏᴛᴍ / ᴘʜᴏɴᴘᴀʏ / ᴘᴀʏᴘᴀʟ / ɴᴇᴛ ʙᴀɴᴋɪɴɢ
+ɢᴏᴏɢʟᴇᴘᴀʏ / ᴘᴀʏᴛᴍ / ᴘʜᴏɴᴘᴀʏ 
  
-**ᴄᴏɴᴛᴀᴄᴛ ʜᴏᴋᴀɢᴇ:** @Dlaize"""
+**CONTACT OWNER:** @VAMPIRE_KING_NO_1"""
