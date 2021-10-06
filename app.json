@@ -1,7 +1,7 @@
 {
-    "name": "TG Renamer Bot v3",
-    "description": "Naruto Telegram file Renamer Bot. Create your Own Fork.",
-    "logo": "",
+    "name": "Charmander Renamer Bot v3",
+    "description": "Charmander Telegram file Renamer Bot. Create your Own Fork.",
+    "logo": "https://telegra.ph/file/8e103a319b2412f0d89de.jpg",
 
     "keywords": [
         "telegram",
@@ -10,10 +10,10 @@
         "renamer"
     ],
 
-    "repository": "https://github.com/dakshkohli23/New-TG-Rename-Bot",
+    "repository": "https://github.com/Judson-web/New-TG-Rename-Bot",
     "stack": "heroku-20",
-    "website": "https://t.me/Compass_botz",
-    "success_url": "https://t.me/Compass_botz",
+    "website": "https://github.com/Judson-web",
+    "success_url": "http://t.me/RenamerPro_V2_bot",
 
     "env": {
         "API_HASH": {
