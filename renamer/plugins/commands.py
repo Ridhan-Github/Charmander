@@ -9,6 +9,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.emoji import *
 
 
+START_TEXT = """onu podey"""
+
+
 ################## Help command ##################
 
 @Compass_Botz.on_message(filters.command("help") & filters.private & filters.incoming)
@@ -52,7 +55,7 @@ async def start(c, m, cb=False):
     if cb:
         await m.send_photo(photo="https://telegra.ph/file/8e420f1d90816c8acd1f9.jpg", quote=True)
         await m.reply_text(
-            text=TEXT.START_TEXT.format
+            text=START_TEXT,
             reply_markup=reply_markup
         )
     else:
