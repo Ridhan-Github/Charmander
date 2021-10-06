@@ -1,14 +1,14 @@
 
-<h1 align="center"><b>Naruto Rename Bot</b></h1>
-<h4 align="center">ɪ'ᴍ ɴᴀʀᴜᴛᴏ ᴜᴢᴜᴍᴀᴋɪ<br/>
-ᴛᴇʟᴇɢʀᴀᴍ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴜᴘᴘᴏʀᴛ ɪꜱ ᴍʏ ɴɪɴᴊᴀ ᴡᴀʏ!⚡.</h4>
+<h1 align="center"><b>CHARMANDER RENAME BOT</b></h1>
+<h4 align="center">I'AM CHARMANDER<br/>
+ᴛᴇʟᴇɢʀᴀᴍ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴜᴘᴘᴏʀᴛ!⚡.</h4>
 
 <p align='center'>
   <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-fb3640.svg?style=flat-square&logo=python&logoColor=FFC75F&color=FFC75F" /> </a>
-  <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot/" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square&logo=serverless&logoColor=FFC75F&color=FFC75F" /> </a>
+  <a href="https://github.com/Judson-web/New-TG-Rename-Bot/" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square&logo=serverless&logoColor=FFC75F&color=FFC75F" /> </a>
 </p>
 
-<p align="center"><a href="https://github.com/dakshkohli23/New-TG-Rename-Bot"><img src="https://telegra.ph/file/4b30927369949d360d608.png"></a></p>
+<p align="center"><a href="https://github.com/Judson-web/New-TG-Rename-Bot"><img src="https://telegra.ph/file/2c5352485bc9817925e33.jpg"></a></p>
 
 <p align="center">
     <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=FFC75F&logo=codacy&logoColor=FFC75F&style=for-the-badge" alt="Codacy" /></a>
@@ -38,7 +38,7 @@
 ## Deploy to Heroku 🗳
 Press the following button to deploy in heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dakshkohli23/New-TG-Rename-Bot)
+[![Deploy](ttps://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dakshkohli23/New-TG-Rename-Bot)
 
 ## Bot Features 🔥
 - Renaming Telegram files as file or video.
