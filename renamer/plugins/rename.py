@@ -35,7 +35,7 @@ async def media(c, m):
         if time_gap:
             return
 
-    file_name = await c.ask(chat_id=m.from_user.id, text="**Send me the New FileName for this file or send /cancel to stop**", filters=filters.text)
+    file_name = await c.ask(chat_id=m.from_user.id, text="**Nᴏᴡ Sᴇɴᴅ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Oʀ Sᴇɴᴅ /cancel Tᴏ Sᴛᴏᴘ**", filters=filters.text)
     await file_name.delete()
     await file_name.request.delete()
     new_file_name = file_name.text
@@ -166,4 +166,4 @@ async def media(c, m):
 
 async def notify(m, time_gap):
     await asyncio.sleep(time_gap)
-    await m.reply_text("__Bruh You can use me Now 🚀__")
+    await m.reply_text("__Yᴏᴜ Cᴀɴ Usᴇ Mᴇ Nᴏᴡ 🚀__")
