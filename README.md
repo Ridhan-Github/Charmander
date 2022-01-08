@@ -5,24 +5,24 @@
 
 <p align='center'>
   <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-fb3640.svg?style=flat-square&logo=python&logoColor=FFC75F&color=FFC75F" /> </a>
-  <a href="https://github.com/Judson-web/New-TG-Rename-Bot/" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square&logo=serverless&logoColor=FFC75F&color=FFC75F" /> </a>
+  <a href="https://github.com/Judson-web/Charmander/" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square&logo=serverless&logoColor=FFC75F&color=FFC75F" /> </a>
 </p>
 
-<p align="center"><a href="https://github.com/Judson-web/New-TG-Rename-Bot"><img src="https://telegra.ph/file/4f1bbe7a3518eecb657cd.jpg"></a></p>
+<p align="center"><a href="https://github.com/Judson-web/Charmander"><img src="https://telegra.ph/file/4f1bbe7a3518eecb657cd.jpg"></a></p>
 
 <p align="center">
-    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=FFC75F&logo=codacy&logoColor=FFC75F&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot"> <img src="https://img.shields.io/github/repo-size/dakshkohli23/New-TG-Rename-Bot?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>
-    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot/commits"> <img src="https://img.shields.io/github/last-commit/dakshkohli23/New-TG-Rename-Bot?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>
-    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot/issues"> <img src="https://img.shields.io/github/issues/dakshkohli23/New-TG-Rename-Bot?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>
-    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot/network/members"> <img src="https://img.shields.io/github/forks/dakshkohli23/New-TG-Rename-Bot?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>  
+    <a href="https://github.com/Judson-web/Charmander"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=FFC75F&logo=codacy&logoColor=FFC75F&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/Judson-web/Charmander"> <img src="https://img.shields.io/github/repo-size/Judson-web/Charmander?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>
+    <a href="https://github.com/Judson-web/Charmander/commits"> <img src="https://img.shields.io/github/last-commit/Judson-web/Charmander?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>
+    <a href="https://github.com/Judson-web/Charmander/issues"> <img src="https://img.shields.io/github/issues/Judson-web/Charmander?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>
+    <a href="https://github.com/Judson-web/Charmander/network/members"> <img src="https://img.shields.io/github/forks/Judson-web/Charmander?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=FFC75F&label=telethon&logo=python&logoColor=FFC75F&style=for-the-badge" /></a>
 </p>
 
 ## Deploy to Heroku 🗳
 Press the following button to deploy in heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/New-TG-Rename-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/Charmander)
 
 ## Bot Features 🔥
 - Renaming Telegram files as file or video.
