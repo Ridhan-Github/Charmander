@@ -23,10 +23,10 @@ async def help_cb(c, m):
 @Compass_Botz.on_callback_query(filters.regex('^donate$'))
 async def donate(c, m):
     button = [[
-        InlineKeyboardButton(f'⚡ Home', callback_data='back'),
-        InlineKeyboardButton(f'❗ About', callback_data='about')
+        InlineKeyboardButton(f'Hᴏᴍᴇ', callback_data='back'),
+        InlineKeyboardButton(f'Aʙᴏᴜᴛ', callback_data='about')
         ],[
-        InlineKeyboardButton(f'✖️ Close', callback_data='close')
+        InlineKeyboardButton(f'Cʟᴏsᴇ', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     await m.answer()
