@@ -19,22 +19,6 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=FFC75F&label=telethon&logo=python&logoColor=FFC75F&style=for-the-badge" /></a>
 </p>
 
-
-## Mapping
-[Deploy to Heroku 🗳](https://github.com/dakshkohli23/New-TG-Rename-Bot#deploy-to-heroku-)
-
-[Bot Features 🔥](https://github.com/dakshkohli23/New-TG-Rename-Bot#bot-features-)
-
-[Required Vars 💥](https://github.com/dakshkohli23/New-TG-Rename-Bot#required-vars-)
-
-[Optional Vars 💬](https://github.com/dakshkohli23/New-TG-Rename-Bot#optional-vars-)
-
-[Available Commands 🤖](https://github.com/dakshkohli23/New-TG-Rename-Bot#available-commands-)
-
-[TODO 🤧](https://github.com/dakshkohli23/New-TG-Rename-Bot#todo-)
-
-[Thanks And Credits 🎉](https://github.com/dakshkohli23/New-TG-Rename-Bot#thanks-and-credits-)
-
 ## Deploy to Heroku 🗳
 Press the following button to deploy in heroku.
 
@@ -98,11 +82,6 @@ login - (when password is given) to login to bot
 - [ ] Adding broadcast command 
 - [ ] Adding ban and unban commands
 - [ ] Increasing error handlers
-
-## Thanks And Credits 🎉
-[SpEcHiDe](https://github.com/SpEcHiDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
-[Source](https://github.com/Ns-Bots/TG-RENAMER-BOT)
-[Dan](https://telegram.dog/haskell) for his [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 
 <img src="https://telegra.ph/file/8e103a319b2412f0d89de.jpg" alt="tEST BG" width="549" height="418">
