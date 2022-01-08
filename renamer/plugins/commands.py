@@ -17,10 +17,10 @@ START_TEXT = """onu podey"""
 @Compass_Botz.on_message(filters.command("help") & filters.private & filters.incoming)
 async def help(c, m, cb=False):
     button = [[
-        InlineKeyboardButton(f'𝙃𝙤𝙢𝙚🏡', callback_data='back'),
-        InlineKeyboardButton(f'𝔇𝔬𝔫𝔞𝔱𝔢😊', callback_data='donate')
+        InlineKeyboardButton(f'Hᴏᴍᴇ', callback_data='back'),
+        InlineKeyboardButton(f'Dᴏɴᴀᴛᴇ', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'𝘊𝘭𝘰𝘴𝘦🖤', callback_data='close')
+        InlineKeyboardButton(f'Cʟᴏsᴇ', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -45,15 +45,15 @@ async def start(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
     owner_username = owner.username if owner.username else 'Compass_Botz'
     button = [[
-        InlineKeyboardButton(f'👑⊕ωηεr😎', url=f'https://t.me/{owner_username}'),
-        InlineKeyboardButton(f'𝘈𝘣𝘰𝘶𝘵🤓', callback_data='about')
+        InlineKeyboardButton(f'Oᴡɴᴇʀ', url=f'https://t.me/{owner_username}'),
+        InlineKeyboardButton(f'Aʙᴏᴜᴛ', callback_data='about')
         ],[
-        InlineKeyboardButton(f'ᕼᗴᒪᑭ🥺', callback_data="help"),
-        InlineKeyboardButton(f'𝘊𝘭𝘰𝘴𝘦🖤', callback_data="close")
+        InlineKeyboardButton(f'Hᴇʟᴘ', callback_data="help"),
+        InlineKeyboardButton(f'Cʟᴏsᴇ', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
-        await m.send_photo(photo="https://telegra.ph/file/8e420f1d90816c8acd1f9.jpg", quote=True)
+        await m.send_photo(photo="https://telegra.ph/file/2f33b669a7f8829c056c7.jpg", quote=True)
         await m.reply_text(
             text=START_TEXT,
             reply_markup=reply_markup
@@ -77,10 +77,10 @@ async def about(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
 
     button = [[
-        InlineKeyboardButton(f'𝙃𝙤𝙢𝙚🏡', callback_data='back'),
-        InlineKeyboardButton(f'𝔇𝔬𝔫𝔞𝔱𝔢😊', callback_data='donate')
+        InlineKeyboardButton(f'Hᴏᴍᴇ', callback_data='back'),
+        InlineKeyboardButton(f'Dᴏɴᴀᴛᴇ', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'𝘊𝘭𝘰𝘴𝘦🖤', callback_data="close")
+        InlineKeyboardButton(f'Cʟᴏsᴇ', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -131,8 +131,8 @@ async def reset_user(c, m):
         else:
             await m.reply_text('Use this command in the format `/reset user_id`')
     else:
-        await m.reply_sticker(sticker="CAACAgQAAxkBAAECZ4pgwMEL30OnKyxB01xnYzWkuQy37gACYgIAAktp7hBRdueOAXw_Eh8E", quote=True)
-        await m.reply_text(text="You are not admin to use this command.")
+        await m.reply_sticker(sticker="CAACAgIAAxkBAAEDBjRhXRp30T82S_PobYoQi2p0Mgf7igACQQIAApb6EgUKwyduObjWpCEE", quote=True)
+        await m.reply_text(text="Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ")
 
 
 ################## login command ##################
@@ -145,10 +145,10 @@ async def password(c, m):
 
         is_logged = (await get_data(m.from_user.id)).is_logged
         if is_logged:
-            return await m.reply_text(f"__You are already loggedin {VICTORY_HAND}.__", quote=True)
+            return await m.reply_text(f"__Yᴏᴜ ᴀʀᴇ ᴀʟʀᴇᴀᴅʏ ʟᴏɢɢᴇᴅɪɴ {VICTORY_HAND}.__", quote=True)
 
         if len(m.command) == 1:
-            await m.reply_text('Send me the bot password in the format `/login password`')
+            await m.reply_text('Sᴇɴᴅ ᴍᴇ ᴛʜᴇ ʙᴏᴛ ᴘᴀssᴡᴏʀᴅ ɪɴ ᴛʜᴇ ғᴏʀᴍᴀᴛ `/login ᴘᴀssᴡᴏʀᴅ`')
         else:
             cmd, pwd = m.text.split(' ', 1)
             if pwd == Config.BOT_PASSWORD:
@@ -156,7 +156,7 @@ async def password(c, m):
                 await m.reply_text(text=LOCKED_WITH_KEY, quote=True)
                 await m.reply_text(f'Logged Sucessfully to the bot.\nEnjoy the bot now {FACE_SAVORING_FOOD}.', quote=True)
             else:
-                await m.reply_sticker(sticker="CAACAgIAAxkBAAEDBkdhXRtugkWn2kLnaswYPhWCZbZCUAACFwIAApb6EgUx0VDnDbeuZiEE", quote=True)
-                return await m.reply_text(f'Incorrect password', quote=True)
+                await m.reply_sticker(sticker="CAACAgIAAxkBAAEDox9h2RXRvlQMMs3pUSZIpvF_-mZ8NQACJQIAApb6EgV0hTQ8iYv-KSME", quote=True)
+                return await m.reply_text(f'Iɴᴄᴏʀʀᴇᴄᴛ ᴘᴀssᴡᴏʀᴅ', quote=True)
     else:
-        await m.reply_text(f'**This bot was publicly available to all {SMILING_FACE_WITH_HEARTS}.**\nIf you are the owner of the bot to make bot private add bot password in Config Vars {LOCKED_WITH_KEY}.', quote=True)
+        await m.reply_text(f'**Tʜɪs ʙᴏᴛ ɪs ᴀᴠᴀɪʟᴀʙʟᴇ ᴛᴏ ᴀʟʟ {SMILING_FACE_WITH_HEARTS}.**', quote=True)
