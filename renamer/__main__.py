@@ -35,8 +35,7 @@ def main():
 
     idle()
 
-    Renamer.stop()
-    print("⛔ Bot Stopped ⛔")
+    Renamer.run()
 
 if __name__ == "__main__":
     main()
